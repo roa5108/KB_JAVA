@@ -1,8 +1,24 @@
-### Example user template template
-### Example user template
-
 # IntelliJ project files
 .idea
 *.iml
 out
+.idea_modules/
+
+# OS 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 로그, 백업, 임시 파일
+*.log
+*.tmp
+*.bak
+
+# 빌드 디렉토리 (Gradle/Maven 사용 시)
+build/
+target/
+
+# Java 컴파일 결과
+*.class
+
+# 기타 (구형 구조)
 gen
