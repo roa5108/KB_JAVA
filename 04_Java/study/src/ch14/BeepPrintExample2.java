@@ -9,11 +9,7 @@ public class BeepPrintExample2 {
             @Override
             public void run() {
                 Toolkit toolkit = Toolkit.getDefaultToolkit();
-                for (int
-                     i = 0;
-                     i < 5;
-                     i++) {
-
+                for (int i = 0; i < 5; i++) {
                     toolkit.beep();
                     try {
                         Thread.sleep(500);
