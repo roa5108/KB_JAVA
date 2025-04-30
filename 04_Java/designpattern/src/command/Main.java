@@ -15,7 +15,7 @@ public class Main {
             System.out.println("선택: ");
             int sel = scanner.nextInt();
 
-            commands[sel - 1].execute();c
+            commands[sel - 1].execute();
         }
     }
 }
