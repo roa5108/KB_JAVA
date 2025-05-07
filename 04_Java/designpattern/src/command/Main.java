@@ -4,9 +4,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        FileService fs = new FileService();
         Command[] commands = {
                 new AddCommand(),
-                new ExitCommand()
+                new ExitCommand(),
+
+                fs::open,
+                fs::print,
+//                Main::exit
         };
 
         while (true) {
