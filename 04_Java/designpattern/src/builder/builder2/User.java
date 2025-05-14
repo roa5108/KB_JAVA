@@ -12,7 +12,6 @@ public class User {
     public User() {
     }
 
-
     private User(String name, String email, String password, String phone, String address, boolean sex, int age) {
         this.name = name;
         this.email = email;
